@@ -1,0 +1,80 @@
+{
+  "n_train": 1200,
+  "n_test": 300,
+  "classification": {
+    "cv_f1_macro": {
+      "LogisticRegression": 0.8569132662622894,
+      "RandomForest": 0.8493328815008885,
+      "GradientBoosting": 0.844931750143313
+    },
+    "best_model": "LogisticRegression",
+    "accuracy": 0.88,
+    "f1_macro": 0.8717815665925377,
+    "report": {
+      "At-Risk": {
+        "precision": 0.9142857142857143,
+        "recall": 0.7804878048780488,
+        "f1-score": 0.8421052631578947,
+        "support": 41.0
+      },
+      "Average": {
+        "precision": 0.8611111111111112,
+        "recall": 0.8857142857142857,
+        "f1-score": 0.8732394366197183,
+        "support": 140.0
+      },
+      "High": {
+        "precision": 0.8925619834710744,
+        "recall": 0.907563025210084,
+        "f1-score": 0.9,
+        "support": 119.0
+      },
+      "accuracy": 0.88,
+      "macro avg": {
+        "precision": 0.8893196029559666,
+        "recall": 0.8579217052674729,
+        "f1-score": 0.8717815665925377,
+        "support": 300.0
+      },
+      "weighted avg": {
+        "precision": 0.8808538195810922,
+        "recall": 0.88,
+        "f1-score": 0.8795994563874475,
+        "support": 300.0
+      }
+    },
+    "labels": [
+      "At-Risk",
+      "Average",
+      "High"
+    ],
+    "confusion_matrix": [
+      [
+        32,
+        9,
+        0
+      ],
+      [
+        3,
+        124,
+        13
+      ],
+      [
+        0,
+        11,
+        108
+      ]
+    ]
+  },
+  "regression": {
+    "cv_rmse": {
+      "Ridge": 3.8959768548553955,
+      "RandomForest": 4.7953306578188934,
+      "GradientBoosting": 4.102874320274961
+    },
+    "best_model": "Ridge",
+    "mae": 3.2318900095140264,
+    "rmse": 3.954415446719748,
+    "r2": 0.9251055639819756
+  }
+}

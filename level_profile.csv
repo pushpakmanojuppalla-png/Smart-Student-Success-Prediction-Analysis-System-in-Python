@@ -1,0 +1,4 @@
+performance_level,age,study_hours_per_week,attendance_pct,previous_gpa,assignment_completion_pct,internal_marks,participation_score,sleep_hours,stress_level,extracurricular_activities,absences,final_score
+At-Risk,20.46,6.28,61.3,2.11,55.28,49.97,4.09,6.73,6.49,1.42,16.57,46.83
+Average,20.63,11.97,73.55,2.77,69.85,65.58,5.6,6.81,5.48,1.64,11.57,65.6
+High,20.45,19.22,87.01,3.5,86.38,83.54,7.22,6.9,4.51,1.53,6.17,85.28
